@@ -7,7 +7,7 @@ import Card from '../components/Card.astro';
 	<main class="bg-gradient-to-br from-teal-300 to-blue-300 h-full w-full">
 		<div class="max-w-3xl mx-auto flex justify-center items-center h-full">
 			<div class="p-4">
-				<h1 class="text-3xl md:text-4xl font-extrabold">Welcome to 🍕 <span class="text-gradient">pizzajs.de</span></h1>
+				<h1 class="text-3xl md:text-4xl font-extrabold">Welcome to 🍕 <span class="text-transparent bg-gradient-to-r bg-clip-text from-red-700 to-yellow-600">pizzajs.de</span></h1>
 				<p class="text-3xl md:text-4xl font-bold my-8">
 					Meetup coming soon to <span class="font-extrabold text-4xl md:text-5xl inline">Stuttgart</span> 
 				</p>
@@ -15,14 +15,3 @@ import Card from '../components/Card.astro';
 		</div>
 	</main>
 </Layout>
-
-<style>
-	.text-gradient {
-		background-image: var(--accent-gradient);
-		-webkit-background-clip: text;
-		-webkit-text-fill-color: transparent;
-		background-size: 400%;
-		background-position: 0%;
-	}
-
-</style>
